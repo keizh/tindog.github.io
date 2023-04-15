@@ -1,0 +1,209 @@
+body{
+    font-family:'Montserrat';
+}
+
+#title{
+
+    background-color: #ff4c68;
+
+}
+
+h1
+{
+    color: whitesmoke;
+    font-family:'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.container-fluid
+{
+    padding: 3%  15%;
+}
+
+/* navigation bar */
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size:  2rem;
+    font-weight: bold;
+    
+}
+
+.navbar{
+
+    padding:0 0 4.5rem;
+}
+
+.nav-item
+{
+    padding: 0px 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family:"Ubuntu"
+}
+
+/* buttons */
+
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image
+{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features
+{
+padding: 7% 15%;
+background-color: white;
+position:relative;
+z-index: 1;
+}
+
+
+/* icon size  */
+
+.icon
+{
+color:#ff4c68;
+}
+
+i:hover{
+
+    color:bisque;
+}
+
+h3
+{
+    font-size:1.5rem;
+    font-weight: bold;
+
+}
+
+.p1
+{
+    
+    font-size: 1.1rem;
+    font-family:'Work Sans';
+    color: grey;
+
+}
+
+.fea
+{
+    text-align: center;
+}
+
+
+/* testimonials*/
+
+#testimonials
+{
+    text-align: center;
+    background-color: #ff4c68;
+    color:azure;
+
+}
+
+.carousel-item
+{
+        padding: 7% 15%;
+}
+
+h2
+{   
+    font-size: 2.5rem;
+    line-height:3.5rem;
+
+}
+
+.testimonials-image
+{   
+    width:10%;
+    border-radius: 100% ;
+}
+
+#press
+{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+}
+
+.press-image
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+            /* top  R/l  bottom */
+}
+
+#pricing
+{
+    padding: 100px;   
+    text-align: center;
+}
+
+.pricing-col
+{
+    padding: 5% 3%;
+}
+
+#cta
+{
+    background-color:#ff4c68 ;
+    text-align:center;
+    color:white;
+    padding:7% 15%;
+}
+
+.cta-heading
+{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+#footer
+{
+    text-align:center;
+
+}
+
+.social
+{
+    padding: 5% 3%;
+}
+
+@media (max-width:1028px) {
+
+    #title
+    {
+        text-align: center;
+    }
+
+    .title-image{
+        width:40%;
+        position: static;
+        transform: rotate(0);
+    }
+
+    #features
+{
+padding: 7% 15%;
+background-color: white;
+}
+
+
+}
+
